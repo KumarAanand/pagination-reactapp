@@ -70,7 +70,7 @@ function App() {
                 className={page === i + 1 ? "pagination__selected" : ""}
                 onClick={() => selectPageHandler(i + 1)}
               >
-                {i + 1}
+                {i + 1} Chc
               </span>
             );
           })}
